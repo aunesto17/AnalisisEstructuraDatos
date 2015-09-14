@@ -7,9 +7,21 @@
 //
 
 #include <iostream>
+#include "nodo.h"
+
+using namespace std;
+
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    //cNode<int> prueba(10);
+    //cout << prueba.m_data << endl;
+    
+    cList<int> prueba;
+    
+    
+    
+    
+    
     return 0;
 }

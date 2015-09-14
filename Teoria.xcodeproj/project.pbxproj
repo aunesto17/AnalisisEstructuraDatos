@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F458F0691BA70EFA00D80EAA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F458F0681BA70EFA00D80EAA /* main.cpp */; };
+		F458F0711BA70F3900D80EAA /* nodo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F458F06F1BA70F3900D80EAA /* nodo.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		F458F0651BA70EFA00D80EAA /* Teoria */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Teoria; sourceTree = BUILT_PRODUCTS_DIR; };
 		F458F0681BA70EFA00D80EAA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F458F06F1BA70F3900D80EAA /* nodo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nodo.cpp; sourceTree = "<group>"; };
+		F458F0701BA70F3900D80EAA /* nodo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nodo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				F458F0681BA70EFA00D80EAA /* main.cpp */,
+				F458F0701BA70F3900D80EAA /* nodo.h */,
+				F458F06F1BA70F3900D80EAA /* nodo.cpp */,
 			);
 			path = Teoria;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F458F0691BA70EFA00D80EAA /* main.cpp in Sources */,
+				F458F0711BA70F3900D80EAA /* nodo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
